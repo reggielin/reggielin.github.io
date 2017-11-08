@@ -1,0 +1,242 @@
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header a {   
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.1vw;
+}
+
+footer a{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.1vw;
+}
+
+img{
+    position: relative;
+    z-index: -1;
+}
+
+iframe{
+    position: relative;
+    z-index: -1;
+}
+
+body {
+    background-color: grey; 
+    margin: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+footer {
+    padding-top: 2%;
+    padding-bottom: 3.5%;
+}
+/* class: apply to multiple */
+/*sections*/
+.about-me{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.article{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.article-right{
+    align-content: left;
+    margin-top: -5%;
+    padding-left: 60%;
+    padding-right: 10%;
+}
+.article-right-hi{
+    align-content: left;
+    margin-top: -25%;
+    padding-left: 60%;
+    padding-right: 10%;
+    padding-bottom: 2.5%;
+}
+.article-right-low{
+    align-content: left;
+    margin-top: 5%;
+    padding-left: 60%;
+    padding-right: 10%;
+    padding-bottom: 2.5%;
+}
+.article-right-xlow{
+    align-content: left;
+    padding-left: 60%;
+    padding-right: 10%;
+	margin-bottom: -13%;
+}
+.article-left{
+    align-content: left;
+    margin-top: -5%;
+    padding-left: 10%;
+    padding-right: 60%;
+}
+.article-left-hi{
+    align-content: left;
+    margin-top: -10%;
+    padding-left: 10%;
+    padding-right: 60%;
+	padding-bottom:7%;
+}
+.article-left-low{
+    align-content: left;
+	margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 60%;
+}
+/*text*/
+.article-title{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 1.1vw;
+    padding-top: 2%;
+    padding-bottom: 0.25%;
+}
+.quote{
+    font-family: 'Lora', serif;
+    font-size: 4.5vw;
+    color: blue;
+    padding-top: 0.5em;
+    padding-bottom:0.5em;
+}
+
+.quote a{
+    color: blue;
+}
+
+.en-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.4vw;
+    color: white;
+}
+
+.en-text a{
+	color: blue;
+}
+.cn-text{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.4vw;
+    color: white;
+}
+
+.large-asset{
+    padding-top: 10%;
+}
+
+/* #id: apply to one */
+#home{
+    position: fixed;
+    left: 5%;
+	z-index: 10;
+}
+
+#vimeo{
+    position: absolute;
+    text-align: right;
+    right: 27%; 
+}
+
+#linkedin{
+    position: absolute;
+    text-align: right;
+    right: 15%;
+}
+
+#resume{
+    position: absolute;
+    text-align: right;
+    right: 0%;
+    padding-right:5%;
+}
+
+#article-section{
+    position: absolute;
+    left: 5%;
+}
+
+#article-name{
+    position: absolute;
+    text-align: right;
+    right: 27%;
+}
+
+#right-edge{
+/*    article year and side text*/
+    position: absolute;
+    text-align: right;
+    right: 5%;
+}
+
+/*photo*/
+#left-align-img{
+    margin-left: -5.5%;
+    margin-top: -11%;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#right-align-img{
+    margin-top: -11%;
+    margin-left: 55.5%;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+#left-mid-img{
+    margin-top: -20%;
+    margin-left: 15%;
+    opacity: 0.6;
+}
+
+#right-mid-img{
+    margin-top: -20%;
+    margin-left: 35%;
+    opacity: 0.6;
+}
+
+#center-asset{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    align-content: center;
+	vertical-align: top;
+}
+
+#center-asset-sm-pad{
+    padding-top: 3%;
+    padding-bottom: 10%;
+    align-content: center;
+}
+#sm-center-asset{
+	margin:20%;
+    align-content: center;
+}
+/*misc ID*/
+#resize-vid{
+  height: 112.6%;
+}
